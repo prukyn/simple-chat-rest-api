@@ -13,7 +13,7 @@ class ChatUser(models.Model):
 class Message(models.Model):
     text = models.CharField(max_length=100)
     create_date = models.DateTimeField(auto_now_add=True)
-    update_date = models.DateTimeField(null=True)
+    update_date = models.DateTimeField(auto_now=True)
     author = models.ForeignKey(ChatUser, on_delete=models.CASCADE)
 
     def __str__(self):
