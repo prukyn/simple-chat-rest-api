@@ -134,5 +134,5 @@ REST_FRAMEWORK = {
 
 try:
     from .local_settings import *
-except FileNotFoundError:
+except ModuleNotFoundError:
     pass
