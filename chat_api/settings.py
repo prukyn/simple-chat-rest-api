@@ -75,10 +75,10 @@ WSGI_APPLICATION = 'chat_api.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'chat_room',
-        'USER': 'chat_room_user', 
-        'PASSWORD': 'password',
-        'HOST': 'localhost',
+        'NAME': 'd97tv4kvncbljs',
+        'USER': 'lgdwjxkpniepak', 
+        'PASSWORD': 'paedf42c74df83443247f54d1a3ffa5490b743369239fd5e1f2f75550c472b6cd',
+        'HOST': 'ec2-23-21-115-109.compute-1.amazonaws.com',
         'PORT': '5432' 
     }
 }
