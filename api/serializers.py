@@ -14,7 +14,7 @@ class ChatUserSerializer(serializers.Serializer):
 
 class MessageSerializer(serializers.Serializer):
     text = serializers.RegexField(r'[\w|\W]{1,100}')
-    created_date = serializers.DateTimeField(read_only=True)
+    create_date = serializers.DateTimeField(read_only=True)
     author = ChatUserSerializer()
 
     def create(self, validated_data):
