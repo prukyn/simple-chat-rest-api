@@ -25,7 +25,7 @@ SECRET_KEY = '*#j30rmvzz8yh-7-u7(5wce+hswd470qmg-nb-&v0j_7v&=*k1'
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['simple-chat-api-by-me.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
